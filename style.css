@@ -1,0 +1,170 @@
+body {
+  background-color: #0d192c;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #15263f;
+  width: 304px;
+  height: 551px;
+  padding: 24px;
+  border-radius: 15px;
+  position: relative;
+}
+.layer {
+  position: absolute;
+  background-color: turquoise;
+  width: 304px;
+  height: 304px;
+  top: 24px;
+  border-radius: 8px;
+  opacity: 0.5;
+  display: none;
+}
+
+.view-icon {
+  position: absolute;
+  top: 155px;
+  left: 152px;
+  display: none;
+}
+
+.pic {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.eth {
+  display: inline-block;
+  width: 75px;
+  height: 20px;
+  color: #00fff8;
+  font-family: "Outfit", sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+hr {
+  background-color: #2e405a;
+  width: 302px;
+  height: 1px;
+  border: 0;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.box {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  margin: 0;
+  display: inline-block;
+}
+
+.avatar {
+  width: 30px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  margin-left: 112px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.days {
+  display: inline-block;
+  width: 75px;
+  height: 20px;
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+.creator {
+  display: inline-block;
+  width: 81px;
+  height: 20px;
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+.name {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+.name:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.image:hover .view-icon {
+  display: block;
+  cursor: pointer;
+}
+
+.image:hover .layer {
+  display: block;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
